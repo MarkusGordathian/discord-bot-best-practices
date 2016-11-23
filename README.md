@@ -34,6 +34,9 @@ help if you're unsure about the right way to implement things.
 self-loops and potential security exploits. Using a zero width space such as `\u200B`
 and `\u180E` in the beginning of each message also prevents your bot from
 triggering other bots' commands.
+9. **Avoid mass messages**. For messages such as maintenance announcements, avoid
+sending a message to all your bot's servers. Instead, consider creating a server
+for your bot with an announcement channel to use for such messages.
 
 If you have an idea for an addition or change to this document, please make a
 pull request and we can discuss it.
